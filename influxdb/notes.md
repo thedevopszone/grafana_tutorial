@@ -68,6 +68,16 @@ urls = ["http://127.0.0.1:8086"]
 ```
 
 ```
+[[outputs.influxdb_v2]]
+urls = ["http://192.168.1.19:8086"]
+token = "..."
+organisation = "itpanther"
+bucket = "telegraf"
+```
+
+
+
+```
 On the telegraf server
 influxdb
 
