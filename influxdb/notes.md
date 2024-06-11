@@ -62,4 +62,7 @@ EOF
 sudo yum install telegraf
 ```
 
-
+vi /etc/telegraf/telegraf.conf
+```
+urls = ["http://127.0.0.1:8086"]
+```
