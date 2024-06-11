@@ -35,6 +35,9 @@ sudo yum localinstall influxdb-1.8.4.x86_64.rpm
 systemctl status influxdb
 ```
 
+```
+http://localhost:8086
+```
 
 ## Install Telegraf open source data collector
 
